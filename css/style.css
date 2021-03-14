@@ -1,3 +1,12 @@
 #sidebarMenu a {
- color: azure;
+    color: azure;
+}
+
+#dataInterest {
+    color: #B97A57;
+    font-weight: bold;
+}
+
+#navActive {
+    font-weight: bold;
 }

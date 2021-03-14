@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>My Singing Stats🎤</title>
-
+    <link rel="icon" type="image/png" href="https://ckunakom.github.io/img/logo.png">
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link href="css/lumen.css" rel="stylesheet">
@@ -15,35 +15,35 @@
       <div class="row">
         <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-dark">
           <div class="sidebar-sticky pt-3">
-            <a class="navbar-brand" href="https://ckunakom.github.io/">
-              <img src="https://ckunakom.github.io/img/icon.png" class="rounded mx-auto d-block" alt="ck-boba" width="55px" height="55px">
+            <a class="navbar-brand" href="https://ckunakom.github.io/" target="_blank">
+              <img src="https://ckunakom.github.io/img/logo.png" class="rounded mx-auto d-block" alt="ck-boba" width="55px" height="55px">
             </a>
             <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Backstory</a>
+              <li class="nav-item" id="navActive">
+                <a class="nav-link text-right" href="index.html">Backstory</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="overview.html">
+                <a class="nav-link text-right" href="overview.html">
                   Overview
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="coll_lis.html">
-                  Collaboration & Listens
+                <a class="nav-link text-right" href="coll_lis.html">
+                  Collaboration <br>& Listens
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="time.html">
+                <a class="nav-link text-right" href="time.html">
                   Over Time
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="top.html">
+                <a class="nav-link text-right" href="top.html">
                   Top Songs
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="habitat.html">
+                <a class="nav-link text-right" href="habitat.html">
                   Singing Bubble
                 </a>
               </li>
@@ -57,8 +57,19 @@
             <div class="btn-toolbar mb-2 mb-md-0">
             </div>
           </div>
-          <canvas width="900" height="380"></canvas>
 
+          <div>
+            <p>The Tableau visualization shown on this project use the data extracted from my <a href="https://www.smule.com/" target="_blank">Smule</a> page.
+            The data is from September 2016 - March 2021.</p>
+            Refer to the <a href="https://ckunakom.github.io/my_smule_record/" target="_blank">All the Singing in Smule</a> 
+              for the detail on data extraction. This project is essentially a '2.0 version' of that mother project.</p>
+            <p>Below is what the Smule webpage looks like and a preview of the visualization created by the obtained data. The data of interest is marked with the <a id="dataInterest">brown arrow</a>. These include but not limited to song title, number of collaborations,
+              number of listens, date the recording was created, inviters, etc. The raw data is omitted for privacy.
+            </p>
+              <img class="rounded mx-auto d-block" src="img/smule_page.PNG" alt="smule-page" width="1000px">
+              <img class="rounded mx-auto d-block" alt="arrow" src="img/arrow.png" height="128px">
+            <img class="rounded mx-auto d-block" src="img/Storyboard.png" alt="smule-page" width="1000px">
+            </div>
 
         </main>
       </div>

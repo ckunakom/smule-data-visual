@@ -2,45 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>My Singing Stats🎤</title>
-
+    <title>Singing Bubble🎤</title>
+    <link rel="icon" type="image/png" href="https://ckunakom.github.io/img/logo.png">
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link href="css/lumen.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  
+
   <body>
     <div class="container-fluid">
       <div class="row">
         <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-dark">
           <div class="sidebar-sticky pt-3">
+            <a class="navbar-brand" href="https://ckunakom.github.io/" target="_blank">
+              <img src="https://ckunakom.github.io/img/logo.png" class="rounded mx-auto d-block" alt="ck-boba" width="55px" height="55px">
+            </a>
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Backstory</a>
+                <a class="nav-link text-right" href="index.html">Backstory</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="overview.html">
+                <a class="nav-link text-right" href="overview.html">
                   Overview
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="coll_lis.html">
-                  Collaboration & Listens
+                <a class="nav-link text-right" href="coll_lis.html">
+                  Collaboration <br>& Listens
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="time.html">
+                <a class="nav-link text-right" href="time.html">
                   Over Time
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="top.html">
+                <a class="nav-link text-right" href="top.html">
                   Top Songs
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="habitat.html">
+              <li class="nav-item" id="navActive">
+                <a class="nav-link text-right" href="habitat.html">
                   Singing Bubble
                 </a>
               </li>
@@ -54,9 +57,10 @@
             <div class="btn-toolbar mb-2 mb-md-0">
             </div>
           </div>
+          <p>Last but not least, a bonus visualization showing where are the people I joined their recordings singing from. 
+            The saying is definitely true here: <span class='text-warning'>'Music connects people together'.</span> 
+          Though I am in my own bubble when I use this app, my bubble is not as so tiny as people would think 😉</p>
           <div class='tableauPlaceholder' id='viz1615694848202' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sm&#47;SmuleRecord&#47;Map&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SmuleRecord&#47;Map' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sm&#47;SmuleRecord&#47;Map&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1615694848202');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='700px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-          <canvas width="900" height="380"></canvas>
-
 
         </main>
       </div>
