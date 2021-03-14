@@ -4,4 +4,4 @@ This project is essentially a continuation of the [smule-song-list](https://gith
 
 The visualizations are made out of Tableau.
 
-[Deployed page:](#)
+Deployed page: [here](https://ckunakom.github.io/smule-data-visual/)
