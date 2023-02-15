@@ -14,13 +14,18 @@ var navBarDom = `
                 </a>
               </li>
               <li class="nav-item">
+              <a class="nav-link" href="buddies.html">
+                Buddies
+              </a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="collab_playback.html">
                   Collaboration & Playback
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="buddies.html">
-                  Buddies
+                <a class="nav-link" href="favorite_buddies.html">
+                  Favorite Buddies
                 </a>
               </li>
               <li class="nav-item">
