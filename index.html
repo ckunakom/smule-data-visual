@@ -1,53 +1,74 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Data Visualization: Smule App data🎤</title>
-    <link rel="icon" type="image/png" href="https://ckunakom.github.io/img/logo.png">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link href="static/css/lumen.css" rel="stylesheet">
-    <link href="static/css/style.css" rel="stylesheet">
-  </head>
 
-  <body>
-    <div class="container-fluid">
-      <div class="row">
-        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-dark">
-          <div id="repeat-nav-bar"></div>
-        </nav>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BPQH21GV9W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
-          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-            <h2 class="text-secondary">Data Visualization: Smule App Data - Backstory</h2>
-            <div class="btn-toolbar mb-2 mb-md-0">
-            </div>
+    gtag('config', 'G-BPQH21GV9W');
+  </script>
+  <meta charset="utf-8">
+  <title>Data Visualization: Smule App data🎤</title>
+  <link rel="icon" type="image/png" href="https://ckunakom.github.io/img/logo.png">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link href="static/css/lumen.css" rel="stylesheet">
+  <link href="static/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-dark">
+        <div id="repeat-nav-bar"></div>
+      </nav>
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+        <div
+          class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h2 class="text-secondary">Data Visualization: Smule App Data - Backstory</h2>
+          <div class="btn-toolbar mb-2 mb-md-0">
           </div>
-
-          <div>
-            <p>The Tableau visualization shown on this project use the data extracted from my <a href="https://www.smule.com/" target="_blank">Smule</a> page.
-            The data is from September 2016 - March 2021.</p>
-            Refer to the <a href="https://ckunakom.github.io/my_smule_record/" target="_blank">Data Mining: Smule App Data</a>
-              for the detail on data extraction. This project is essentially a '2.0 version' of that mother project.</p>
-            
-            <p>Below is what the Smule webpage used to look like and a preview of a dashboard created by the mined data. The data of interest is marked with the <a id="dataInterest">brown arrow</a>. 
-              These include but not limited to song title, number of collaborations,
-              number playbacks, date the recording was created, users involved in the recording, etc. The raw data is omitted for privacy.
-            </p>
-
-            <p class='text-primary'>Be sure to click on stuff within the dashboard as prompted for entertainment!</p>
-
-              <img class="rounded mx-auto d-block" src="img/smule_page.PNG" alt="smule-page" width="1000px">
-              <img class="rounded mx-auto d-block" alt="arrow" src="img/arrow.png" height="128px">
-            <img class="rounded mx-auto d-block" src="img/Storyboard.png" alt="smule-page" width="1000px">
-        </main>
-
         </div>
 
-      </div>
+        <div>
+          <p>The Tableau visualization shown on this project use the data extracted from my <a
+              href="https://www.smule.com/" target="_blank">Smule</a> page.
+            The data is from September 2016 - March 2021.</p>
+          Refer to the <a href="https://ckunakom.github.io/my_smule_record/" target="_blank">Data Mining: Smule App
+            Data</a>
+          for the detail on data extraction. This project is essentially a '2.0 version' of that mother project.</p>
+
+          <p>Below is what the Smule webpage used to look like and a preview of a dashboard created by the mined data.
+            The data of interest is marked with the <a id="dataInterest">brown arrow</a>.
+            These include but not limited to song title, number of collaborations,
+            number playbacks, date the recording was created, users involved in the recording, etc. The raw data is
+            omitted for privacy.
+          </p>
+
+          <p class='text-primary'>Be sure to click on stuff within the dashboard as prompted for entertainment!</p>
+
+          <img class="rounded mx-auto d-block" src="img/smule_page.PNG" alt="smule-page" width="1000px">
+          <img class="rounded mx-auto d-block" alt="arrow" src="img/arrow.png" height="128px">
+          <img class="rounded mx-auto d-block" src="img/Storyboard.png" alt="smule-page" width="1000px">
+      </main>
+
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <script src="static/js/navbar.js"></script>
-  </body>
+
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="static/js/navbar.js"></script>
+</body>
+
 </html>
